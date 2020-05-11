@@ -76,7 +76,7 @@ class _StoryPageState extends State<StoryPage> {
                     onPressed: () {
                       //Choice 2 made by user.
                       setState(() {
-                        _storyBrain.nextStory(1);
+                        _storyBrain.nextStory(2);
                       });
                     },
                     color: Colors.blue,
